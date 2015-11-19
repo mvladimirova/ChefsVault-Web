@@ -1,7 +1,10 @@
 /**
- * Created by Marianna on 02-Nov-15.
- */
-///<reference path="../typings/browserify/browserify.d.ts"/>
-var App = console.log("Hello world");
+ * Created by MariannlogLogin.Login);
+**/
 
+///<reference path="./components/login"/>
+import {Login} from "./components/login";
+var App = console.log("Hello world");
+var log = new Login();
+console.log(log);
 module.exports = App;
