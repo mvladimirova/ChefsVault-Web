@@ -25,3 +25,28 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+# Type definitions
+typings
+
+#TypeScript ignore
+*.js
+*.js.map
+
+#Add dataload js files for MongoDB - used mainly for testing purposes
+!DataLoadScripts/*.js
+
+#vs studio dependecies
+obj
+*.vs
+*.dat
+*.tmp
+*.dll
+*.DotSettings
+*.sln
+
+#web storm ignore
+.idea
+
+#Custom ignores
+PrivateConfigurations
