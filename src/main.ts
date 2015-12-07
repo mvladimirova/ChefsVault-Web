@@ -1,10 +1,5 @@
-/**
- * Created by MariannlogLogin.Login);
-**/
-
-///<reference path="./components/login"/>
-import {Login} from "./components/login";
+import * as LoginModule from "./components/login/login";
 var App = console.log("Hello world");
-var log = new Login();
-console.log(log);
+var log = LoginModule;
+console.log("log");
 module.exports = App;
